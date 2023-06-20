@@ -3,15 +3,19 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem;
     position: fixed;
     top: 0;
     width: 100vw;
     height: 90px;
     z-index: 10;
 }
+.active-list{
+    color: #fcce00;
+}
 .nav-heading{
     font-family: "Kalam";
+    color: #0A66C2;
 }
 .nav-container-bg {
     background-color: rgba(0, 0, 0, 0.85);
@@ -49,6 +53,9 @@
         left: -150%;
         transition: 0.3s;
         z-index: -3;
+    }
+    .nav-container{
+        padding: 1rem;
     }
     .active{
         left: 0;

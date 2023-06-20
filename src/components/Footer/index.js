@@ -13,7 +13,7 @@ const Footer = () => {
                 <BsGithub size={30} style={{color:"#ffffff",marginLeft:"10px",marginRight:"10px",cursor:"pointer"}}/>
             </a>
                 <BsFillTelephoneFill size={30} style={{color:"#ffffff",marginLeft:"10px",marginRight:"10px",cursor:"pointer"}}/>
-                <RiMailAddLine size={30} style={{color:"#f2a60c",marginLeft:"10px",marginRight:"10px",cursor:"pointer"}}/>
+                <RiMailAddLine size={30} style={{color:"#a31300",marginLeft:"10px",marginRight:"10px",cursor:"pointer"}}/>
         </div>
     </div>
   )
