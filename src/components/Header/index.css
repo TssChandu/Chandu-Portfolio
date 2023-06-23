@@ -15,7 +15,7 @@
 }
 .nav-heading{
     font-family: "Kalam";
-    color: #0A66C2;
+    color: aqua;
 }
 .nav-container-bg {
     background-color: rgba(0, 0, 0, 0.85);
@@ -26,6 +26,7 @@
 }
 .nav-menu{
     display: flex;
+    align-items: center;
 }
 .nav-menu li {
     padding: 0 1rem;
@@ -38,6 +39,24 @@
 }
 .hamburger{
     display: none;
+}
+.resume-btn{
+    border: 1px solid #fcce00;
+    padding: 5px 10px;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "kalam";
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 2rem;
+    margin-left: 1rem;
+}
+.resume-btn:hover{
+    background-color: rgb(235, 120, 120);
+    border: #fcce00;
+    color: #ffffff;
 }
 @media screen and (orientation:portrait) {
     .nav-menu{
@@ -65,6 +84,9 @@
     }
     .nav-menu li a {
         font-size: 2rem;
+    }
+    .resume-btn{
+        margin: 1rem;
     }
     .hamburger{
         display: initial;

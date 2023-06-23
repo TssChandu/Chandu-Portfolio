@@ -12,8 +12,12 @@ const Footer = () => {
             <a href='https://github.com/TssChandu?tab=repositories' target='_blank' rel="noreferrer">
                 <BsGithub size={30} style={{color:"#ffffff",marginLeft:"10px",marginRight:"10px",cursor:"pointer"}}/>
             </a>
+            <a href='tel:+917836028114'>
                 <BsFillTelephoneFill size={30} style={{color:"#ffffff",marginLeft:"10px",marginRight:"10px",cursor:"pointer"}}/>
+            </a>
+            <a href='mailto:t.s.s.chandu444@gmail.com' >
                 <RiMailAddLine size={30} style={{color:"#a31300",marginLeft:"10px",marginRight:"10px",cursor:"pointer"}}/>
+            </a> 
         </div>
     </div>
   )
