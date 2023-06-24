@@ -15,7 +15,7 @@ const Header = () => {
                       setColor(false)
                   }
                 }
-                window.addEventListener("scroll",changeColor)
+    window.addEventListener("scroll",changeColor)
     return(
         <HeaderContext.Consumer>
             {value => {
